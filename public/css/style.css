@@ -1,0 +1,242 @@
+*{
+	padding:0;
+	margin:0;
+}
+
+body{
+	background: rgb(86, 91, 99);
+	//font-family: Consolas,monaco,monospace; 
+}
+.wrapper{
+	width:1200px;
+	height:750px;
+	background: #fff;
+	margin:10px auto;
+}
+.right-page{
+	width: 900px;
+	height: 750px;
+	//background: black;
+	float: right;
+	box-shadow: -3px 1px 6px gray;
+}
+
+.right-page .profile{
+	
+	width: 100px;
+	height: 100px;
+	
+	position: relative;
+	margin:25px 10px 10px 33px;
+	display: inline-table;
+	float:none;
+}
+.right-page .profile img{
+	
+	width:100px;
+	height: 100px;
+	position: relative;
+}
+.right-page .profile a{
+	position: absolute;
+	color: #FFF;
+	text-decoration: none;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	text-align: center;
+	background: rgba(0,0,0,0.5);
+	font-family: Consolas,monaco,monospace; 
+	margin-bottom: 4px;
+	width: 100px;
+	height: 20px;	
+}
+.right-page .profile a:hover{
+	color : orangered;	
+	transition: color .5s;
+}
+.left-page{
+	width:250px;
+	height: 750px;
+	float:left;
+}
+.logo{
+	width: 200px;
+	height: 200px;
+	margin:auto;
+}
+.left-page img{
+	width: 200px;
+	height: 200px;
+
+}
+.nav{
+	//background: yellow;
+	height: 300px;
+
+}
+.nav ul{
+	 list-style-type: none;
+	 text-align: center;
+	 line-height: 25px;
+}
+.nav ul li {
+	background: rgb(240, 230, 242);
+	height: 25px;
+	width: 200px;
+	margin:5px auto;
+}
+.nav a{
+	text-decoration: none;
+}
+
+.quote{
+
+	width:200px;
+	height: 100px;
+	margin:10px auto;
+	font-family: Consolas,monaco,monospace; 
+	font-size: 16px;
+	border-top: 1px solid rgb(77, 78, 79);
+}
+.quote p{
+	margin-top: 10px;
+	text-align: justify;
+}
+.chat{
+	width: 700px;
+	height: 500px;
+	margin: 5px auto;
+}
+
+.chat label {
+	margin-top: 50px;
+	font-family: Consolas,monaco,monospace;
+}
+.chat h1{
+	text-align: center;
+	border-bottom: 5px solid black;
+	font-family: Consolas,monaco,monospace; 
+}
+input{
+	
+	width: 149px;
+	height: 18px;
+	display: block;
+}
+textarea{
+	margin:5px auto;
+	width: 700px;
+	height: 50px;
+}
+button{
+	border: none;
+	width: 100px;
+	height: 25px;
+}
+
+#reloadbox{
+		
+	height: 500px;
+	overflow-y: auto;
+	vertical-align: bottom;
+	padding-top: 10px;
+	/*background: rgb(240, 230, 242);*/
+	background: #635e86;
+	border-radius: 0px 0px 10px 10px;
+	color:white;
+	font-family: Consolas,monaco,monospace; 
+}
+#reloadbox b{
+	
+	padding: 0px 3px;
+	border-radius: 5px;
+}
+#reloadbox .lineChat{
+	margin: 5px 0px;
+}
+.box{
+	max-width: 700px;
+	margin-left: 10px;
+	word-wrap: break-word;
+}
+
+.info{
+	font-family: Consolas,monaco,monospace; 
+	font-size: 14px;
+	width: 200px;
+	height: 18px;
+	text-align: center;
+	margin:80px auto auto auto;
+	background: lightblue;
+	cursor: pointer;
+	float:none;
+}
+
+button #changeStyle{
+	width: 90px;
+	
+}
+.test{
+	font-family: Consolas,monaco,monospace; 
+	background: black;
+	height: 700px;
+	color: green;
+	padding: 10px;
+	overflow-y: auto;
+	position: relative;
+}
+form#appForm2{
+	height: 150px;
+	background: yellow;
+}
+form#appForm2 input[type="text"]{
+	width: 870px;
+	height: 20px;
+	color: white;
+	background: black;
+	font-family: Consolas,monaco,monospace; 
+	left: 25px;
+	bottom: 5px;
+	border: 0;
+	cursor: auto;
+}
+
+/*SIGN IN DESIGN*/
+
+.signup{
+	font-family: Consolas,monaco,monospace; 
+
+}
+
+.signup form{
+	width: 250px;
+	height: 350px;
+	background: pink;
+	margin:auto;
+	padding:10px 10px;
+}
+.signup form legend{
+	background: yellow;
+	text-align: center;
+}
+.signup form button{
+	margin-top:5px;
+}
+
+/*LOGIN DESIGN*/
+
+.login{
+	font-family: Consolas,monaco,monospace; 
+}
+.login form{
+	background: #e4c6db;
+	width: 250px;
+	height: 150px;
+	margin: 50px auto;
+	padding:5px 10px;
+
+}
+.login form button{
+	margin-top: 5px;
+}
