@@ -5,6 +5,8 @@
 */
 class Controller
 {
+	protected $view;
+	protected $model;
 	
 	function __construct()
 	{

@@ -8,10 +8,14 @@
 		protected $table2 = 'tb_account';
 		//$mysqli = new mysqli('sql209.epizy.com','epiz_19847432','ttlbmyn1','epiz_19847432_chat'); tai em chua chinh lai cai nay
 		//Tai khoan 
-		private $host =  'localhost';
-		private $user = 'root';
-		private $password = '';
-		private $database  = 'chatdb';
+		private $host =  'sql209.epizy.com';
+		private $user = 'epiz_19847432';
+		private $password = 'ttlbmyn1';
+		private $database  = 'epiz_19847432_chat';
+		// private $host =  'localhost';
+		// private $user = 'root';
+		// private $password = '';
+		// private $database  = 'chatdb';
 
 		protected $conn;
 		function __construct()

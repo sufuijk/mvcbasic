@@ -1,14 +1,12 @@
 <class class="login">
 	
-	<form action="?c=login&&a=login" method="POST" id="loginForm">
+	<form action="login/verify" method="POST" id="loginForm">
 		
-		<legend><h4>LOGIN</h4></legend>
-		<label>Username:</label>
-		<input type="text" name="username" required>
-		<label>Password:</label>
-		<input type="password" name="password" required>
+		<legend><h2>Login</h2></legend>
+		<input type="text" name="username" placeholder="Username" required>
+		<input type="password" name="password" placeholder="Password" required>
 		<button>Đăng nhập</button><br>
-		<label>Chưa có tài khoản? <a href="?c=signin">Đăng kí</a></label>
+		<label>Chưa có tài khoản? <a href="signup">Đăng kí</a></label>
 	</form>
-	<script type="text/javascript" src="js/validate.js"></script>
+	
 </class>

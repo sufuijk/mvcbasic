@@ -8,13 +8,13 @@
 			<div class="nav">
 				<ul>
 					<a href="home"><li>Home</li></a>
-					<a href="chat"><li>Chat</li></a>
+					<a href="teamtalk"><li>TeamTalk</li></a>
 					<?php if(!isset($_SESSION['name'])){
 						echo '<a href="login"><li>Login</li></a>';
 						echo '<a href="signup"><li>Sign up</li></a>';
 
 					}else{
-						echo '<a href="?c=login&&a=logout"><li>Logout</li></a>';
+						echo '<a href="login/logout"><li>Logout</li></a>';
 					} 
 					?>
 			</div>
